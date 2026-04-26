@@ -1,0 +1,51 @@
+# 🔐 Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# 🐍 Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📦 Archivos de instalación
+*.egg-info/
+.eggs/
+
+# 🔧 VS Code
+.vscode/
+
+# 🐳 Docker
+*.log
+docker-compose.override.yml
+
+# 🔑 Variables de entorno
+.env
+.env.*
+
+# 🗄️ Base de datos local (por si acaso)
+*.sqlite3
+
+# 📂 Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# 📄 Logs
+*.log
+
+# 📁 Archivos temporales
+tmp/
+temp/
+
+# 📊 Coverage / testing
+.coverage
+htmlcov/
+
+# 🧪 pytest
+.pytest_cache/
+
+# 🧾 Migrations compiladas (opcional NO recomendado ignorar migrations)
+# */migrations/*
+# !*/migrations/__init__.py
